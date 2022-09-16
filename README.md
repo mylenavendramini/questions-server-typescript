@@ -17,7 +17,7 @@ $ npm -v
 Start with cloning this repo on your local machine:
 
 ```bash
-$ git clone https://github.com/mylenavendramini/books-server.git
+$ git clone https://github.com/mylenavendramini/questions-server-typescript.git
 ```
 
 ## Usage
@@ -33,13 +33,7 @@ express, mongodb, mongoose, nodemon, concurrently
 
 ## You have to add
 
-Create a nodemon.json file and add {
-"env": {
-"MONGO\*USER": "your-username",
-"MONGO_PASSWORD": "your-password",
-"MONGO_DB": "your-db-name"
-}
-}
+Create a .env file and add DB_STRING = "your-MongoDB-string"
 
 ## Built With
 
